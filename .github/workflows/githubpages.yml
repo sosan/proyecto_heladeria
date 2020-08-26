@@ -23,7 +23,7 @@ jobs:
         uses: awb-pw/deploy-to-github-pages-action@1.1.1
         env:
           AUTHOR: jose
-          BUILD_PATH: src
+          BUILD_PATH: public
           GITHUB_PAGE_NAME: sosan.github.io/template_html
           PA_TOKEN: ${{ secrets.PA_TOKEN }}
           USERNAME: sosan
