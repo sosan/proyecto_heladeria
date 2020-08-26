@@ -3,7 +3,7 @@
 html 
 {
     background-color: #eeee;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: black;
 }
@@ -13,5 +13,15 @@ body
 {
     padding: 1.25rem 1.25rem 0em 1.25rem;
     height: 100vh;
+
+}
+
+
+
+
+
+.redesSociales
+{
+    font-size: 0.75rem;
 
 }
