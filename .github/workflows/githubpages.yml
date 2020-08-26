@@ -24,7 +24,7 @@ jobs:
         env:
           AUTHOR: jose
           BUILD_PATH: public
-          GITHUB_PAGE_NAME: template_html.sosan.github.io
+          GITHUB_PAGE_NAME: sosan.github.io/template_html
           PA_TOKEN: ${{ secrets.PA_TOKEN }}
           USERNAME: sosan
           EMAIL: josloe@gmail.com
