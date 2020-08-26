@@ -37,7 +37,23 @@ body
 
 }
 
+/* Footer fijo */
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 50px;
 
+}
+
+.links
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 
 /* REdes Sociales */
