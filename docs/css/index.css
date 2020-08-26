@@ -1,1 +1,38 @@
 /* CSS solo para la pagina index.html */
+
+.promociones
+{
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+
+}
+
+.imagenSeccion, .textoSeccionDerecha, .textoSeccionIzquierda {
+    width: 50%;
+    margin: 1%;
+    
+
+}
+
+/* Falta conversion a rem */
+.imagenSeccion
+{
+    width: 140px;
+    height: 140px;
+}
+
+.textoSeccionDerecha
+{
+    font-size: 0.75rem;
+    text-align: right;
+
+}
+
+.textoSeccionIzquierda {
+    font-size: 0.75rem;
+    text-align: left;
+
+}

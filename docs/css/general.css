@@ -16,12 +16,26 @@ body
 
 }
 
+/* Estructura Header */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 
 
-
+/* REdes Sociales */
 .redesSociales
 {
     font-size: 0.75rem;
 
+}
+
+/* Copyrigh */
+h6 {
+    font-size: 0.5rem;
+    font-weight: bold;
 }
