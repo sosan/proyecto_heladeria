@@ -1,9 +1,36 @@
 /* CSS general para toda la web */
 
+/* Fuentes propias */
+@font-face
+{
+    font-family: "robotoregular";
+    font-weight: normal;
+    font-style: normal;
+    src: 
+        local("robotoregular"),
+        url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
+        url("../fonts/roboto-regular-webfont.woff") format("woff");
+
+}
+
+@font-face {
+    font-family: "shrikhandregular";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        local("shrikhandregular"),
+        url("../fonts/shrikhand-regular-webfont.woff2") format("woff2"),
+        url("../fonts/shrikhand-regular-webfont.woff") format("woff");
+
+}
+
+
+
+
 html 
 {
     background-color: #eeee;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "robotoregular", sans-serif;
     font-size: 16px;
     color: black;
 }
@@ -28,10 +55,11 @@ body
 .titulo
 {
     font-size: 2.15rem;
+    font-family: "shrikhandregular";
 }
 
 .linea {
-    border: 2px solid #999999;
+    border: 2px solid #d45500;
     height: 1px;
     margin-bottom: 1.5rem;
 
@@ -44,7 +72,7 @@ footer {
     bottom: 80px;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 70px;
     padding: 20px;
 }
 
