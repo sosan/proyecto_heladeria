@@ -7,7 +7,7 @@
     font-weight: normal;
     font-style: normal;
     src: 
-        local("robotoregular"),
+        local("roboto"),
         url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
         url("../fonts/roboto-regular-webfont.woff") format("woff");
 
@@ -24,14 +24,11 @@
 
 }
 
-
-
-
 html 
 {
-    background-color: #eeee;
     font-family: "robotoregular", sans-serif;
     font-size: 16px;
+    background-color: #eeee;
     color: black;
 }
 
@@ -80,7 +77,8 @@ footer {
 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 20px;
 
 }
 
