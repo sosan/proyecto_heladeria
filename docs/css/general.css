@@ -46,13 +46,42 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    
+    margin-bottom: 5px;
 }
+
+
+.logo
+{
+
+    /* flex-grow: 1; */
+    flex-basis: 50px;
+
+}
+
+
 
 .titulo
 {
     font-size: 2.15rem;
     font-family: "shrikhandregular";
+
+    flex-grow: 2;
+}
+
+.hamburguesa
+{
+    /* flex-grow: 1; */
+    align-self: center;
+    align-items: flex-start;
+
+}
+
+.centrado
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .linea {
